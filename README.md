@@ -2,9 +2,9 @@
 a couple of exercises to get on the same page
 
 
-[Exercise 1](#working-with-tdms-files)
+* [exercise 1](#working-with-tdms-files)
 
-## Working with tdms files
+### Working with tdms files
 - **Clone this repo on to your computer using your terminal**
 > *this will essentially save a copy of this repo in a folder on your computer of
 > the same name, so make sure your current directory is where you want that folder*
