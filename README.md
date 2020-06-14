@@ -19,15 +19,18 @@ $ cd tdms
 ```
 
 - **Read through tdms_to_numpy.py then run it**
+> *you probably will not have the librays nesseccary for this so install the ones in the error message*
+
 ```sh
+$ pip3 install library_name
 $ python3 tdms_to_numpy.py
 ```
 - **Add the file created to the repo**
-> first look at the files in your directory
+> *first look at the files in your directory*
 ```sh
 $ ls
 ```
-> enter the name of the file in place of output_file.txt below
+> *enter the name of the file in place of output_file.txt below*
 ```sh
 $ git add output_file.txt
 $ git commit -m"results from exercise 1"
