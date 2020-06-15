@@ -1,6 +1,6 @@
 '''
 This code will open a tdms file, convert it to a numpy array then
-save it as a text file
+save it as a csv file
 '''
 # Imports
 from nptdms import TdmsFile as tdms
