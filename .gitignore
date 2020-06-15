@@ -1,5 +1,5 @@
 # Personal
-DAQData_032819134903.tdms
+*.tdms
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
