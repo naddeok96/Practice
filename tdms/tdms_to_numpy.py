@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Hyperparameters
-file_name = "practice_patient" #"enter_name_here" # do not add extension and it must be a string object
+file_name = "enter_name_here" # do not add extension and it must be a string object
 
 # Load tdms file
 tdms_file = tdms(file_name + ".tdms")
@@ -17,4 +17,6 @@ tdms_file = tdms(file_name + ".tdms")
 ecg_signal = tdms_file.object('Data',' Direct ECG').data
 
 # Save signal
+plt.plot(ecg_signal)
+plt.show()
 np.savetxt("ecg_" + file_name + '.csv', ecg_signal, delimiter=',')
